@@ -25,9 +25,9 @@ declare const findUp: {
 
 		console.log(findUp.sync.exists('/Users/sindresorhus/unicorn.png'));
 		//=> true
-		```
+		``
 		*/
-		exists: (path: string) => boolean;
+		exists: (path: string) => boolean;// da
 
 		/**
 		Synchronously find a file or directory by walking up parent directories.
