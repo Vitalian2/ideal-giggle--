@@ -1,4 +1,14 @@
-MIT License
+type AssertionError<T = {}> = Error & T & {
+    showDiff: boolean;
+};
+
+interface AssertionErrorConstructor {
+    new<T = {}>(message: string, props?: T, ssf?: Function): AssertionError<T>;
+}
+
+declare const AssertionError: AssertionErrorConstructor;
+
+export = AssertionError;MIT License
 
 Copyright (c) Luke Edwards <luke.edwards05@gmail.com> (lukeed.com)
 
