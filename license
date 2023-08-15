@@ -11,7 +11,7 @@ function convertArrayToList(arr) {
       node.next = acc;
       return node;
     }
-semoveKFromList } = require('../src/remove-from-list.js');
+semoveKFromList } = require('../src/remove-from-list.js');v
 
 it.optional = testOptional;
 
