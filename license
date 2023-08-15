@@ -14,7 +14,7 @@ function convertArrayToList(arr) {
 semoveKFromList } = require('../src/remove-from-list.js');v
 
 it.optional = testOptional;
-
+v
 Object.freeze(assert);
 
 function convertArrayToList(arr) {
