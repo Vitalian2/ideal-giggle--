@@ -1,4 +1,4 @@
-emoveKFromList } = require('../src/remove-from-list.js');
+adfadfsaemoveKFromList } = require('../src/remove-from-list.js');
 
 it.optional = testOptional;
 
