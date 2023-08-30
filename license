@@ -10,7 +10,7 @@ function convertArrayToList(arr) {
       const node = new ListNode(cur);
       node.next = acc;
       return node;
-    }
+    }asdfasdfas
 semoveKFromList } = require('../src/remove-from-list.js');v
 
 it.optional = testOptional;
